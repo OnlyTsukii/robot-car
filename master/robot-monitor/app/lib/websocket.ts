@@ -36,6 +36,9 @@ export const SpeedUp                  = 28;
 export const SlowDown                 = 29;
 export const Pause                    = 30;
 
+export const ClockwiseSpin            = 31;
+export const CounterClockwiseSpin     = 32;
+
 
 export type WsRequest = {
   deviceType: number;
